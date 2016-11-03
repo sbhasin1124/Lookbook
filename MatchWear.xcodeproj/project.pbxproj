@@ -14,6 +14,7 @@
 		95290FA11DBE465B006FD086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95290F9F1DBE465B006FD086 /* LaunchScreen.storyboard */; };
 		95290FAC1DBE465B006FD086 /* MatchWearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95290FAB1DBE465B006FD086 /* MatchWearTests.swift */; };
 		95290FB71DBE465B006FD086 /* MatchWearUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95290FB61DBE465B006FD086 /* MatchWearUITests.swift */; };
+		95FB1C241DC23A7C00667AF3 /* 1460050472.png in Resources */ = {isa = PBXBuildFile; fileRef = 95FB1C231DC23A7C00667AF3 /* 1460050472.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		95290FB21DBE465B006FD086 /* MatchWearUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchWearUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95290FB61DBE465B006FD086 /* MatchWearUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchWearUITests.swift; sourceTree = "<group>"; };
 		95290FB81DBE465B006FD086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FB1C231DC23A7C00667AF3 /* 1460050472.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1460050472.png; path = ../../1460050472.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				95290F961DBE465B006FD086 /* AppDelegate.swift */,
 				95290F981DBE465B006FD086 /* ViewController.swift */,
 				95290F9A1DBE465B006FD086 /* Main.storyboard */,
+				95FB1C231DC23A7C00667AF3 /* 1460050472.png */,
 				95290F9D1DBE465B006FD086 /* Assets.xcassets */,
 				95290F9F1DBE465B006FD086 /* LaunchScreen.storyboard */,
 				95290FA21DBE465B006FD086 /* Info.plist */,
@@ -234,6 +237,7 @@
 			files = (
 				95290FA11DBE465B006FD086 /* LaunchScreen.storyboard in Resources */,
 				95290F9E1DBE465B006FD086 /* Assets.xcassets in Resources */,
+				95FB1C241DC23A7C00667AF3 /* 1460050472.png in Resources */,
 				95290F9C1DBE465B006FD086 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,7 +306,9 @@
 				95290F9B1DBE465B006FD086 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
+			path = ../../../../Users/VE/Desktop/MatchWear/MatchWear;
+			sourceTree = DEVELOPER_DIR;
+			usesTabs = 0;
 		};
 		95290F9F1DBE465B006FD086 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -417,6 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NuApps.MatchWear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -429,6 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = NuApps.MatchWear;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -505,6 +513,7 @@
 				95290FBD1DBE465C006FD086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95290FBE1DBE465C006FD086 /* Build configuration list for PBXNativeTarget "MatchWearTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				95290FC01DBE465C006FD086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95290FC11DBE465C006FD086 /* Build configuration list for PBXNativeTarget "MatchWearUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				95290FC31DBE465C006FD086 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
