@@ -12,18 +12,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView = UIImageView(image: UIImage(named: "image.png"))
+        
+        scroll lView = UIScrollView(frame: view.bounds)
+        scrollView.backgroundColor = UIColor.blackColor()
+        scrollView.contentSize = imageView.bounds.size
+        scrollView.autoresizingMask = UIViewAutoresizing.flexibleWidth| insert ";" "UIViewAutoresizing.FlexibleHeight
+        
+        scrollview.addSubview(imageview)
+        view.addSubview(scrollView)
+    }
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+     func didReceiveMemoryWarning() {
+       func '"super"'.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-}
-
-func swap  (x: "2", y: "3")
 
 
 
